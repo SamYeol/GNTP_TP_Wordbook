@@ -12,7 +12,7 @@
 	<span style="font-family: Gulim;"></span>
 	<form method="post" action="checklogin.jsp">
 		<table style="text-align: center; width: 393px; height: 208px;"
-			border="0" cellpadding="2" cellspacing="2" align="center">
+			border="1" cellpadding="2" cellspacing="2" align="center">
 			<tbody>
 				<tr>
 					<td style="text-align: center;">I &nbsp; D</td>
