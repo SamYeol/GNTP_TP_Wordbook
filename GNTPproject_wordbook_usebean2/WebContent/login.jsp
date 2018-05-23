@@ -26,7 +26,6 @@
 						type="password"></td>
 					<td style="text-align: center;">
 						<button type="button" onclick="location.href='join.jsp' ">회원가입</button>
-
 					</td>
 				</tr>
 				</form>
