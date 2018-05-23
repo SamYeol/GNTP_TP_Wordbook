@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-sources>
+	<data-source id="mariaDB-163484171ff-a0ff4e3f034e440" provider="mysql" driver="mariaDB" name="MariaDB - gnpt_project" save-password="true" show-system-objects="true" read-only="false">
+		<connection host="localhost" port="3306" server="" database="gnpt_project" url="jdbc:mysql://localhost:3306/gnpt_project" user="root" password="BhcDMhIaJPc=" home="C:\Program Files (x86)\MySQL\Connector NET 8.0" type="dev">
+			<network-handler type="CONFIG" id="mysql_ssl" enabled="false" save-password="false">
+				<property name="ssl.public.key.retrieve" value="false"/>
+				<property name="ssl.verify.server" value="true"/>
+				<property name="ssl.require" value="false"/>
+			</network-handler>
+			<network-handler type="PROXY" id="socks_proxy" enabled="false" save-password="false">
+				<property name="socks-port" value="1080"/>
+			</network-handler>
+			<network-handler type="TUNNEL" id="ssh_tunnel" enabled="false" save-password="false">
+				<property name="sshConnectTimeout" value="10000"/>
+				<property name="port" value="22"/>
+				<property name="implementation" value="jsch"/>
+				<property name="authType" value="PASSWORD"/>
+			</network-handler>
+		</connection>
+	</data-source>
+	<data-source id="mariaDB-163626ffc77-670457f2c9606854" provider="mysql" driver="mariaDB" name="project_wordbook" save-password="true" show-system-objects="true" read-only="false">
+		<connection host="localhost" port="3306" server="" database="project_wordbook" url="jdbc:mysql://localhost:3306/project_wordbook" user="root" password="BhcDMhIaJPc=" home="C:\Program Files (x86)\MySQL\Connector NET 8.0" type="dev">
+			<network-handler type="CONFIG" id="mysql_ssl" enabled="false" save-password="false">
+				<property name="ssl.public.key.retrieve" value="false"/>
+				<property name="ssl.verify.server" value="true"/>
+				<property name="ssl.require" value="false"/>
+			</network-handler>
+			<network-handler type="PROXY" id="socks_proxy" enabled="false" save-password="false">
+				<property name="socks-port" value="1080"/>
+			</network-handler>
+			<network-handler type="TUNNEL" id="ssh_tunnel" enabled="false" save-password="false">
+				<property name="sshConnectTimeout" value="10000"/>
+				<property name="port" value="22"/>
+				<property name="implementation" value="jsch"/>
+				<property name="authType" value="PASSWORD"/>
+			</network-handler>
+		</connection>
+	</data-source>
+	<filters/>
+</data-sources>
